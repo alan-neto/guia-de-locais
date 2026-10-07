@@ -172,3 +172,19 @@ input:focus-visible {
   main { grid-area: main; padding: 1.5rem; }
   .rodape { grid-area: footer; }
 }
+.cabecalho {
+  background-color: #1b6ca8;
+  color: #ffffff;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .cabecalho {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
